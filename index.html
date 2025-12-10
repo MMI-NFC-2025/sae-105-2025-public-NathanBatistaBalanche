@@ -1,12 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Les rives du Territoire</title>
-    <link rel="shortcut icon" href="/assets/logo/favicon.ico">
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Les rives du Territoire</title>
+        <link rel="shortcut icon" href="/assets/logo/favicon.ico">
+    </head>
+    <body>
+        <header class="header">
+            <a href="/" class="header__logo-link">
+                <img src="/assets/logo/logo_small_img.avif" alt="Logo les rives du territoire" class="header__logo-img">
+            </a>
+            <button class="header__menu-button" aria-label="Ouvrir le menu">
+                <img src="/assets/icon/menu_icon.svg" alt="Bouton pour ouvrir menu" class="header__menu-icon">
+            </button>
+            <nav class="menu" aria-hidden="true">
+                <section class="menu__header">
+                    <img src="/assets/logo/logo_big_img.avif" alt="Logo les rives du territoire" class="menu__logo">
+                    <button class="menu__close-button" aria-label="Fermer le menu">
+                        <img src="/assets/icon/cross_icon.svg" alt="Bouton pour fermer le menu" class="menu__close-icon">
+                    </button>
+                </section>
+                <section class="menu__content">
+                    <ul class="menu__content-list">
+                        <li class="menu__content-item">
+                            <a href="/about.html" class="menu__content-link">À propos</a>
+                        </li>
+                        <li class="menu__content-item">
+                            <a href="/lineup.html" class="menu__content-link">Programmation</a>
+                        </li>
+                        <li class="menu__content-item">
+                            <a href="/artists.html" class="menu__content-link">Artistes</a>
+                        </li>
+                        <li class="menu__content-item">
+                            <a href="/scenes.html" class="menu__content-link">Scènes</a>
+                        </li>
+                        <li class="menu__content-item">
+                            <a href="/informations.html" class="menu__content-link">Informations</a>
+                        </li>
+                        <li class="menu__content-item">
+                            <a href="/contact.html" class="menu__content-link">Contact</a>
+                        </li>
+                    </ul>
+                </section>
+            </nav>
+        </header>
+        <main>
+            <section class="section__hero hero">
+                <h2 class="hero__brand-title">Les rives du territoire</h2>
+                <img class="hero__background" src="/assets/hero/hero_img.avif" alt="Image des berges de la savoureuses">
+                <h1 class="hero__title">Festival de musique</h1>
+            </section>
+            <section class="festival-info">
+                <h2 class="festival-info__title">Du 20 au 23 Décembre 2026</h2>
+                <p class="festival-info__description">
+                    Les Rives du Territoire est un festival de musiques actuelles et de culture urbaine qui met à l’honneur le hip‑hop, l’électro et la pop indépendante. Conçu comme un rendez‑vous hivernal en plein air, il valorise les talents émergents locaux tout en créant une véritable ambiance de quartier. Le festival propose une fusion entre concerts, street‑art et initiatives autour de l’écologie urbaine, transformant l’espace public en laboratoire créatif où se rencontrent musique, arts visuels et engagements citoyens.
+                </p>
+                <button class="festival-info__button">
+                    <p class="festival-info__button-text">Accéder à la billeterie</p>
+                </button>
+                <h2 class="festival-info__title">Artistes présents au festival</h2>
+            </section>
+            <section class="carousel section__carousel">
+                <div class="carousel__track">
+                    <div class="card-artist">
+                        <img class="card-artist__img" src="/assets/artist/artist_img_05_pier.avif" alt="Photo de Pierre Hugues José">
+                        <div class="card-artist__content">
+                            <h3 class="card-artist__title">Pierre Hugues José</h3>
+                            <p class="card-artist__label">
+                                Rappeur de Haute-Saône dont l’écriture introspective et ancrée dans le quotidien local crée une identité forte. Sa musique mêle sensibilité, réalisme et esthétique territoriale, idéale pour un festival valorisant le lien au territoire.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-artist">
+                        <img class="card-artist__img" src="/assets/artist/artist_img_06_pomm.avif" alt="Photo de Pomme">
+                        <div class="card-artist__content">
+                            <h3 class="card-artist__title">Pomme</h3>
+                            <p class="card-artist__label">
+                                Artiste reconnue pour sa pop-folk intime et émotive, capable de toucher un public large, des jeunes adultes aux familles. Son univers ajoute une profondeur artistique et une pause sensible au sein d’une programmation urbaine et électro.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-artist">
+                        <img class="card-artist__img" src="/assets/artist/artist_img_04_luid.avif" alt="Photo de Luidji">
+                        <div class="card-artist__content">
+                            <h3 class="card-artist__title">Luidji</h3>
+                            <p class="card-artist__label">
+                                Figure majeure du rap  contemporain, Luidji offre un univers mêlant mélodies, émotions et modernité. Très apprécié des 18-30 ans, il apporte une visibilité nationale forte tout en restant cohérent avec la scène urbaine actuelle.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel__controls">
+                        <button class="carousel__button" aria-label="Voir l'artiste précédent">
+                            <img class="carousel__button-img" src="/assets/icon/arr_left_icon.svg" alt="Image flèche gauche">
+                        </button>
+                        <button class="carousel__button" aria-label="Voir l'artiste suivant">
+                            <img class="carousel__button-img" src="/assets/icon/arr_right_icon.svg" alt="Image flèche droite">
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="festival-experience">
+                <button class="festival-experience__button">
+                    <p class="festival-experience__button-text">Voir tous les artistes</p>
+                </button>
+                <h2 class="festival-experience__title">Expérience proposée</h2>
+                <p class="festival-experience__description">
+                    Les Rives du Territoire offrent une expérience où musique, culture urbaine et créativité locale se rencontrent en plein air, en plein hiver. Le festival met en avant les talents émergents, l’énergie du rap et de l’électro, et l’ouverture pop qui réunit tous les publics. 
+                </p>
+            </section>
+        </main>
+        <footer>
+            <img src="/assets/logo/logo_small_img.avif">
+            <div>
+                <img src="/assets/icon/tiktok_icon.svg">
+                <img src="/assets/icon/instagram_icon.svg">
+                <img src="/assets/icon/x_icon.svg">
+                <img src="/assets/icon/linkedin_icon.svg">
+            </div>
+            <div>
+                <h3>Contact</h3>
+                <ul>
+                    <li>+33 X XX XX XX XX</li>
+                    <li>nathan.batista_balanche@edu.univ-fcomte.fr</li>
+                </ul>
+            </div>
+        </footer>
+    </body>
 </html>
