@@ -51,31 +51,30 @@
                 <img class="hero__background" src="/assets/hero/hero_img.avif" alt="Image des berges de la savoureuses">
                 <h1 class="hero__title">Contact</h1>
             </section>
-            <section>
-                <form>
-                    <label for="prenom">Prénom :</label>
-                    <input type="text" id="pernom" name="prenom" required>
+            <section class="main">
+                <h2 class="main__title">Formulaire de contact</h2>
+                <form class="form">
+                    <label for="prenom" class="form__label">Prénom :</label>
+                    <input type="text" id="prenom" name="prenom" required class="contact-form__input">
 
-                    <label for="name">Nom :</label>
-                    <input type="text" id="name" name="name" required>
+                    <label for="name" class="form__label">Nom :</label>
+                    <input type="text" id="name" name="name" required class="contact-form__input">
 
-                    <label for="email">Email :</label>
-                    <input type="email" id="email" name="email" required>
+                    <label for="email" class="form__label">Email :</label>
+                    <input type="email" id="email" name="email" required class="contact-form__input">
 
-                    <label for="sujet">Sujet :</label>
-                    <input id="sujet" name="sujet" required></input>
+                    <label for="sujet" class="form__label">Sujet :</label>
+                    <input id="sujet" name="sujet" required class="contact-form__input">
 
-                    <label for="message">Message :</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-
-                    <button type="submit">Envoyer</button>
+                    <label for="message" class="form__label">Message :</label>
+                    <textarea id="message" name="message" rows="5" required class="contact-form__textarea"></textarea>
                 </form>
-                <button>
-                    Envoyer le formulaire
+                <button class="button">
+                    <p class="button__text">Envoyer le formulaire</p>
                 </button>
-                <h2>Coordonnées</h2>
-                <p>Numéro de Téléphone : +33 X XX XX XX XX</p>
-                <p>Adresse mail : nathan.batista_balanche@edu.univ-fcomte.fr</p>
+                <h2 class="main__title">Coordonnées</h2>
+                <p class="main_text">Numéro de Téléphone : +33 X XX XX XX XX</p>
+                <p class="main__text">Adresse mail : nathan.batista_balanche@edu.univ-fcomte.</p>
             </section>
         </main>
         <footer class="footer">
