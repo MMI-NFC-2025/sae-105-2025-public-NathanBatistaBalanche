@@ -1,0 +1,28 @@
+/* Couleurs */
+:root {
+  /* Mode 1 */
+  /* color */
+  --black: rgb(6 6 6);
+  --blue-1: rgb(1 11 191);
+  --blue-2: rgb(1 11 191);
+  --blue-3: rgb(5 140 216);
+  --blue-4: rgb(1 220 242);
+  --dark-gray-1---footer: rgb(59 59 59);
+  --dark-gray-2: rgb(80 79 79);
+  --light-gray---fond: rgb(249 249 249);
+  --light-gray-2: rgb(213 213 213);
+  --light-gray-3: rgb(150 150 150);
+  --violet: rgb(130 35 238);
+}
+
+/* Typographie */
+:root {
+  /* Mode 1 */
+  /* string */
+  --text-small-text: 12;
+  --text-body: 16;
+  --text-heading-3: 20;
+  --text-heading-2: 24;
+  --text-heading-1: 34;
+  --text-title: 40;
+}
