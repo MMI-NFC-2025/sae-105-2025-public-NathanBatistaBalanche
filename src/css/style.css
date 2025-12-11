@@ -13,6 +13,7 @@
 @import url('/src/css/layout/footer.css');
 
 /* Importation du dossier Components */
+@import url('/src/css/components/menu.css');
 @import url('/src/css/components/button.css');
 @import url('/src/css/components/carousel.css');
 @import url('/src/css/components/contactform.css');
