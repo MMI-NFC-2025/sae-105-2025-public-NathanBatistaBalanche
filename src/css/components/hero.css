@@ -18,7 +18,7 @@
     color: var(--light-gray-1);
     text-align: center;
     -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: #000;
+    -webkit-text-stroke-color: var(--black);
     font-family: Gorditas;
     font-size: 40px;
     font-style: normal;
