@@ -1,7 +1,7 @@
 .header {
     position:sticky;
     top:0;
-    z-index:2;
+    z-index:10;
 }
 
 .mobile-header {
@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     background: var(--blue-4);
-    gap: 15.3125rem;
+    gap: 60%;
 }
 
 .mobile-header a{
