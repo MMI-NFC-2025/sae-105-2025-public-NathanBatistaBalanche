@@ -7,6 +7,9 @@
 - PRÉNOM : Nathan
 - GROUPE : A2
 - URL du site (Netlify) : https://lesrivesduterritoire.netlify.app/
+- URL du site (Infomaniak - nom de domaine personnalisé) : http://lesrivesduterritoire.nathan-batista-balanche.fr/
+PS : Pour le nom de domaine personnalisé Infomaniak, nous avions regardé ensemble et il y'avais un problème de redirection par conséquent quand on mettait l'URL ça mettait une page d'erreur
+
 - URL FIGMA : https://www.figma.com/design/0gFMDqlqN0jXDxPZAVNkLS/BATISTA-BALANCHE_Nathan_Maquette_SA%C3%89_105?node-id=7714-659&t=NPWEdtghaZczj2WZ-1
 
 ## Sujet
