@@ -1,0 +1,22 @@
+.main > * {
+    margin-left : 0.9375rem ;
+    margin-right: 0.9375rem ;
+}
+
+.main__title {
+    color: var(--black, #060606);
+    font-family: "Inder", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main__text {
+    color: var(--black, #060606);
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
