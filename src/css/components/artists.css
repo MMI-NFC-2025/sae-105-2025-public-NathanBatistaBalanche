@@ -1,0 +1,68 @@
+.artist__card {
+  max-width: 340px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #222;
+  margin-bottom:1.875rem;
+}
+
+.artist__card-img {
+  width: 15.9375rem;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #4bb7ff;
+  display: block;
+  margin: 0 auto 16px;
+}
+
+.artist__card-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+}
+
+.artist__card-text {
+  max-width: 363px;
+  line-height: 1.4;
+  font-size: 14px;
+  margin: 0rem;
+  margin-bottom:1.25rem;
+}
+
+.artist__card--tag-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.artist__card--tag-date,
+.artist__card--tag-hour,
+.artist__card--tag-style,
+.artist__card--tag-scene {
+  padding: 6px 14px;
+  border-radius: 25px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #fff;
+  margin-top:0rem;
+  margin-bottom:0rem;
+  border: 0.75px solid #000;
+}
+
+.artist__card--tag-date {
+  background: var(--blue-4);
+}
+
+.artist__card--tag-hour {
+  background: var(--blue-3);
+}
+
+.artist__card--tag-style {
+  background: var(--blue-2);
+}
+
+.artist__card--tag-scene {
+  background: var(--violet);
+}
