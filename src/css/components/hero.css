@@ -1,7 +1,7 @@
 .hero {
-  position: relative;      /* conteneur de référence */
-  height: 17.625rem;           /* pleine hauteur écran (à ajuster) */
-  overflow: hidden;        /* évite débordement */
+  position: relative;
+  height: 17.625rem;
+  overflow: hidden;
 }
 
 .hero__background {
@@ -10,8 +10,8 @@
   left: 0;
   width: 100%;
   height: 17.625rem;
-  object-fit: cover;       /* remplit sans déformation */
-  z-index: 1;              /* derrière le texte */
+  object-fit: cover;
+  z-index: 1;
 }
 
 .hero__brand-title {
