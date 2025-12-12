@@ -15,6 +15,9 @@
 }
 
 .carousel-artist {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
   scroll-snap-align: start;
   flex: 0 0 80%;
   max-width: 420px;
@@ -29,36 +32,39 @@
   height: 12.5rem;
   object-fit: cover;
   display: block;
-  border: 3px solid #23a0da;
-  border-radius: 30px;
-  margin-bottom: 12px;
+  border: 1px solid var(--blue-3);
+  border-radius: 15px;
   z-index:1;
 }
 
 .carousel-artist__content {
-  background-color: #ffffff;
-  border: 3px solid #23a0da;
-  border-radius: 40px;
-  padding: 14px 18px 20px;
+  background-color: var(--light-gray-1);
+  border: 1px solid var(--blue-3);
+  border-radius: 15px;
+  max-width: 313px;
+  width:233px;
+  padding: 6px 15px;
   text-align: center;
   margin-top: -1.8125rem;
   z-index:2;
 }
 
 .carousel-artist__title {
-    color: var(--Black);
-    text-align: center;
-    font-family: "Inder",sans-serif;
-    font-size: var(--text-heading-3);
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin: 0 0 6px;
+  color: var(--Black);
+  text-align: center;
+  width:233px;
+  font-family: "Inder",sans-serif;
+  font-size: var(--text-heading-3);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 0 6px;
 }
 
 .carousel-artist__text {
-  color: var(--Black, #060606);
+  color: var(--Black);
   text-align: center;
+  width:233px;
   font-family: "Poppins", sans-serif;
   font-size: var(--text-small-text);
   font-style: normal;
