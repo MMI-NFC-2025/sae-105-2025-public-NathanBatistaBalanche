@@ -28,3 +28,32 @@
     margin:0px;
     text-transform: uppercase;
 }
+
+.carousel__controls {
+  display: flex;
+  justify-content:center;
+  gap: 5.75rem;
+}
+
+.carousel__button {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  border-radius: 1.25rem;
+  border: 1px solid var(--black);
+  background-color: var(--blue-3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.carousel__button:focus {
+  outline: none;
+}
+
+.carousel__button-img {
+  width: 22px;
+  height: 22px;
+  display: block;
+}
