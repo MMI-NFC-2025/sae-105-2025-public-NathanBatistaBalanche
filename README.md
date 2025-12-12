@@ -6,7 +6,7 @@
 - NOM : BATISTA BALANCHE
 - PRÉNOM : Nathan
 - GROUPE : A2
-- URL du site :
+- URL du site (Netlify) : https://lesrivesduterritoire.netlify.app/
 - URL FIGMA : https://www.figma.com/design/0gFMDqlqN0jXDxPZAVNkLS/BATISTA-BALANCHE_Nathan_Maquette_SA%C3%89_105?node-id=7714-659&t=NPWEdtghaZczj2WZ-1
 
 ## Sujet
