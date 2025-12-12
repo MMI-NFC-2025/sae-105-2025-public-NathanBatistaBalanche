@@ -1,0 +1,49 @@
+.lineup__artist{
+    display:flex;
+    align-items:center;
+    padding-left:0.8125rem;
+    padding-right:0.8125rem;
+    padding-top:0.875rem;
+    padding-bottom:0.875rem;
+    gap:1.25rem;
+    margin-bottom:1.25rem;
+}
+
+.lineup__artist-img {
+    width:5.4375rem;
+    border-radius: 88px;
+    border: 1px solid var(--blue-3);
+}
+
+.lineup__artist-name {
+    color: var(--black);
+    font-family: "Inder", sans-serif;
+    font-size: var(--text-heading-3);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top:0rem;
+    margin-bottom:0.1875rem;
+}
+
+.lineup__artist-prestation {
+    color: var(--light-gray-3);
+    font-family: "Poppins", sans-serif;
+    font-size: var(--text-small-text);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom:0.1875rem;
+    margin-top:0rem;
+}
+
+.lineup__artist-tags {
+    color: var(--black);
+    font-family: "Poppins", sans-serif;
+    font-size: var(--text-small-text);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom:0.1875rem;
+    margin-top:0rem;
+}
