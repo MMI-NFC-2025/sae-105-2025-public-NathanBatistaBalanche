@@ -7,6 +7,7 @@
 /* Importation dossier Base */
 @import url('/src/css/base/main.css');
 @import url('/src/css/base/media.css');
+@import url('/src/css/base/globals.css');
 
 /* Importation du dossier Layout */
 @import url('/src/css/layout/header.css');
