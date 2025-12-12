@@ -66,21 +66,45 @@
             </section>
             <section class="main">
                 <h2 class="main__title">Formulaire de contact</h2>
-                <form class="form">
-                    <label for="prenom" class="form__label">Prénom :</label>
-                    <input type="text" id="prenom" name="prenom" required class="contact-form__input" aria-label="Entrer ici votre prénom">
+                <form class="form" action="#" method="post">
+                    <div class="form__group form__group--name">
+                        <label class="form__label" for="firstname">
+                        Nom<span class="form__required" aria-hidden="true">*</span>
+                        </label>
 
-                    <label for="name" class="form__label">Nom :</label>
-                    <input type="text" id="name" name="name" required class="contact-form__input"  aria-label="Entrer ici votre nom">
+                        <div class="form__row">
+                        <div class="form__field">
+                            <input class="form__input" type="text" id="firstname" name="firstname" required aria-required="true">
+                            <span class="form__hint">Prénom</span>
+                        </div>
 
-                    <label for="email" class="form__label">Email :</label>
-                    <input type="email" id="email" name="email" required class="contact-form__input" aria-label="Entrer ici votre adresse email">
+                        <div class="form__field">
+                            <input class="form__input" type="text" id="lastname" name="lastname" required aria-required="true">
+                            <span class="form__hint">Nom</span>
+                        </div>
+                        </div>
+                    </div>
 
-                    <label for="sujet" class="form__label">Sujet :</label>
-                    <input id="sujet" name="sujet" required class="contact-form__input" aria-label="Entrer ici le sujet de votre message">
+                    <div class="form__group">
+                        <label class="form__label" for="email">
+                        E-mail<span class="form__required" aria-hidden="true">*</span>
+                        </label>
+                        <input class="form__input" type="email" id="email" name="email" required aria-required="true">
+                    </div>
 
-                    <label for="message" class="form__label">Message :</label>
-                    <textarea id="message" name="message" rows="5" required class="contact-form__textarea" aria-label="Entrer ici le message que vous voulez transmettre"></textarea>
+                    <div class="form__group">
+                        <label class="form__label" for="subject">
+                        Sujet<span class="form__required" aria-hidden="true">*</span>
+                        </label>
+                        <input class="form__input" type="text" id="subject" name="subject" required aria-required="true">
+                    </div>
+
+                    <div class="form__group">
+                        <label class="form__label" for="message">
+                        Message<span class="form__required" aria-hidden="true">*</span>
+                        </label>
+                        <textarea class="form__input form__input--textarea" id="message" name="message" rows="6" required aria-required="true"></textarea>
+                    </div>
                 </form>
                 <div class="button-center">
                     <button class="button" aria-label="Bouton pour envoyer le formulaire">
@@ -88,7 +112,7 @@
                     </button>
                 </div>
                 <h2 class="main__title">Coordonnées</h2>
-                <p class="main_text">Numéro de Téléphone : +33 X XX XX XX XX</p>
+                <p class="main__text">Numéro de Téléphone : +33 X XX XX XX XX</p>
                 <p class="main__text">Adresse mail : nathan.batista_balanche@edu.univ-fcomte.</p>
             </section>
         </main>
