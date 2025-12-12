@@ -1,9 +1,8 @@
 .artist__card {
-  max-width: 340px;
+  max-width: 20.875rem;
   margin: 0 auto;
   text-align: center;
-  font-family: "Poppins", sans-serif;
-  color: #222;
+  color: var(--black);
   margin-bottom:1.875rem;
 }
 
@@ -11,21 +10,23 @@
   width: 15.9375rem;
   object-fit: cover;
   border-radius: 50%;
-  border: 2px solid #4bb7ff;
+  border: 2px solid var(--blue-4);
   display: block;
   margin: 0 auto 16px;
 }
 
 .artist__card-title {
-  font-size: 24px;
-  font-weight: 600;
+  font-size: var(--text-heading-3);
+  font-family: "Inder", sans-serif;
+  font-weight: 400;
   margin-bottom: 1.25rem;
 }
 
 .artist__card-text {
   max-width: 363px;
   line-height: 1.4;
-  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-size: var(--text-small-text);
   margin: 0rem;
   margin-bottom:1.25rem;
 }
@@ -43,12 +44,13 @@
 .artist__card--tag-scene {
   padding: 6px 14px;
   border-radius: 25px;
-  font-size: 13px;
+  font-family:"Poppins", sans-serif;
+  font-size: var(--text-small-text);
   font-weight: 500;
-  color: #fff;
+  color: var(--light-gray-1);
   margin-top:0rem;
   margin-bottom:0rem;
-  border: 0.75px solid #000;
+  border: 0.75px solid var(--black);
 }
 
 .artist__card--tag-date {
