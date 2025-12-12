@@ -1,6 +1,8 @@
 .carousel {
   background-color: var(--light-gray-1);
-  padding: 40px 0;
+  padding:0rem;
+  padding-bottom: 1.25rem;
+  padding-top: 1.25rem;
   overflow: hidden;
 }
 
