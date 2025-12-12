@@ -1,0 +1,22 @@
+.team-card {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.team-card__img {
+    width:5.4375rem;
+    border-radius:88px;
+    margin-bottom:1.375rem;
+}
+
+.team-card__text {
+    color: var(--black);
+    text-align: center;
+    font-family: Poppins;
+    font-size: var(--text-body, 16px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin:0px;
+}
